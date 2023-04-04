@@ -1,7 +1,7 @@
 <?php
 
-$fruit_prices = ["りんご"=>"300円", "みかん"=>"150円", "もも"=> "3000円"];
-$fruit_counts = ["りんご"=>"1", "みかん"=>"1", "もも"=> "1"];
+$fruit_prices = ["りんご"=>'300', "みかん"=>'150', "もも"=> '3000'];
+$fruit_counts = ["りんご"=>'1', "みかん"=>'1', "もも"=> '1'];
 
 function calculatePrice($price, $count) {
     return $price * $count;
